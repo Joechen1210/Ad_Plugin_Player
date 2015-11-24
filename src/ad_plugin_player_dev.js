@@ -3,7 +3,7 @@
  *
  * Common code to support ad integrations.
  */
-(function(window, document, videojs, undefined) {
+(function(window, videojs) {
 "use strict";
 
 var
