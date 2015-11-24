@@ -817,5 +817,5 @@ var
   // register the ad plugin framework
   videojs.plugin('ads', adFramework);
 
-})(window, document, videojs);
+})(window, window.videojs);
 
