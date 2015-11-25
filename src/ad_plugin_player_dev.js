@@ -3,7 +3,7 @@
  *
  * Common code to support ad integrations.
  */
-(function(window, document, vjs, undefined) {
+(function(window, videojs) {
 "use strict";
 
 var
@@ -521,5 +521,4 @@ var
 
   // register the ad plugin framework
   vjs.plugin('ads', adFramework);
-
-})(window, document, videojs);
+})(window, window.videojs));
