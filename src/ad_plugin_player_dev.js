@@ -521,4 +521,4 @@ var
 
   // register the ad plugin framework
   vjs.plugin('ads', adFramework);
-})(window, window.videojs));
+})(window, window.videojs);
