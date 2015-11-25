@@ -471,7 +471,7 @@ var
     };
 
     // register for the events we're interested in
-    on(player, vjs.Html5.Events.concat([
+    on(player, videojs.Html5.Events.concat([
       // events emitted by ad plugin
       'adtimeout',
       'contentupdate',
@@ -520,5 +520,5 @@ var
   };
 
   // register the ad plugin framework
-  vjs.plugin('ads', adFramework);
+  videojs.plugin('ads', adFramework);
 })(window, window.videojs);
